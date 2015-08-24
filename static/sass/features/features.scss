@@ -71,6 +71,7 @@ chromedash-legend {
     @include flex(1 0 0);
     overflow: auto;
     max-width: $max-content-width;
+    box-sizing: content-box;
   }
 }
 

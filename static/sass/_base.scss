@@ -8,10 +8,11 @@
 
 @import "vars";
 
-* {
+html {
   box-sizing: border-box;
-  // outline: 5px solid transparent;
-  // @include transition(outline 200ms ease-in-out);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 // :focus {
